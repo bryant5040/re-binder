@@ -1,0 +1,29 @@
+# Bryant's own tracking documents never belong in this repo
+*.docx
+*.xlsx
+*.doc
+*.xls
+
+# No real paperwork. Only the fake sample set under evals/paperwork is allowed.
+*.pdf
+*.jpg
+*.jpeg
+*.heic
+*.png
+!evals/paperwork/**
+!docs/pictures/**
+
+# Anything living in Google Drive
+R&E Binder/
+**/My Drive/**
+**/Google Drive/**
+
+# Local machine settings and caches
+.claude/settings.local.json
+__pycache__/
+*.pyc
+Thumbs.db
+.DS_Store
+
+# Skill zips made for a regular chat (skills/pack_for_chat.py)
+dist/

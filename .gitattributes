@@ -1,0 +1,10 @@
+# Keep line endings as written (LF), on every computer
+* text=auto eol=lf
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.heic binary
+*.docx binary
+*.xlsx binary
+*.zip binary

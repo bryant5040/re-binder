@@ -1,0 +1,13 @@
+{
+  "name": "re-binder",
+  "owner": {
+    "name": "Bryant Giang"
+  },
+  "plugins": [
+    {
+      "name": "re-binder",
+      "source": "./plugin",
+      "description": "R&E Binder: files a roofing contractor's job papers into Google Drive, only after he taps Allow."
+    }
+  ]
+}

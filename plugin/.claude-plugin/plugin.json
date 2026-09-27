@@ -1,0 +1,24 @@
+{
+  "name": "re-binder",
+  "description": "Files a roofing contractor's job papers into the right Google Drive folders after he approves. Setup, jobs, filing, lookup and a secretary, plus a lock for the Code tab.",
+  "version": "0.7.5",
+  "author": {
+    "name": "Bryant Giang"
+  },
+  "keywords": [
+    "paperwork",
+    "filing",
+    "small-business",
+    "google-drive",
+    "guardrails",
+    "human-in-the-loop"
+  ],
+  "userConfig": {
+    "binder_folder": {
+      "type": "directory",
+      "title": "Binder folder",
+      "description": "Code tab only: the R&E Binder folder on this PC (Google Drive for desktop). Used to read iPhone photos and to drop a paper from the chat into the Inbox.",
+      "required": false
+    }
+  }
+}
