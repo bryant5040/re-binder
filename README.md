@@ -153,8 +153,9 @@ Testing found 6 problems. Each was fixed, with a test that failed before the fix
 You need a Claude Pro or Max plan and a Google account you don't mind testing on. Claude creates a folder
 named "R&E Binder" in that account's Drive.
 
-1. In Claude, open **Customize → Plugins → + Add → Add marketplace**, add this repo, and install
-   **Re binder**.
+1. In Claude, open **Customize → Plugins → + Add → Add marketplace → Add from a repository**. Enter
+   `bryant5040/re-binder` and click **Sync**. Then find **Re binder** under **Discover** and click
+   **Add**.
 2. In **Customize → Connectors**, connect **Google Drive**. In **Settings → Capabilities**, turn on
    **Code execution and file creation**.
 3. In a new chat, say **"set up my binder"**.

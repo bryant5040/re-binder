@@ -16,8 +16,9 @@ this week.
 
 ## 1. Install it (5 minutes): you drive, he signs in and taps OK
 
-1. In Claude: **Customize → Plugins → + Add → Add marketplace**, add the repo, and install
-   **Re binder**.
+1. In Claude: **Customize → Plugins → + Add → Add marketplace → Add from a repository**. Enter
+   `bryant5040/re-binder`, leave **Sync automatically** on so fixes reach him by themselves, and click
+   **Sync**. Then find **Re binder** under **Discover** and click **Add**.
 2. **Customize → Connectors → Google Drive.** He signs in to Google himself. Never type his password.
 3. **Settings → Capabilities:** turn on **Code execution and file creation**.
 4. On an iPhone: **Settings → Camera → Formats → Most Compatible**, so Claude can read his photos.
