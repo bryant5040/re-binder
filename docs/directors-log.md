@@ -957,7 +957,7 @@ page", "Plugin 0.7.4: a safety stop when the Code-tab lock isn't running; scored
 ## Sep 27, 2026 · Wave 6: the guide, the README, the teaching script and the public repo
 
 **What I decided:**
-- **the owner's guide:** one guide, not two. The Read Me First that setup puts in his binder is the guide,
+- **The owner's guide:** one guide, not two. The Read Me First that setup puts in his binder is the guide,
   with 2 lines learned in testing (after Allow, photos sent in a chat need "Open in Google Drive"; answer
   Claude's questions in a word). `tools/print_guide.py` prints the same text on one page.
 - **The README:** my first draft was too thin. I asked for "a diagram, very simple and more easy to read,
