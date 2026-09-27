@@ -953,3 +953,35 @@ instead of guessing. The Code tab opened the photos on the PC. Details:
 **Commits:** "Lock 0.7.1: close the tracker-name and new-file gaps", "Plugin 0.7.2: the list always
 comes before the question", "Plugin 0.7.3: every skill says where its files are and to read every
 page", "Plugin 0.7.4: a safety stop when the Code-tab lock isn't running; scored runs"
+
+## Sep 27, 2026 · Wave 6: the guide, the README, the teaching script and the public repo
+
+**What I decided:**
+- **the owner's guide:** one guide, not two. The Read Me First that setup puts in his binder is the guide,
+  with 2 lines learned in testing (after Allow, photos sent in a chat need "Open in Google Drive"; answer
+  Claude's questions in a word). `tools/print_guide.py` prints the same text on one page.
+- **The README:** my first draft was too thin. I asked for "a diagram, very simple and more easy to read,
+  like I wrote it", then "be more descriptive... exclude all fluff... explain more into what this is".
+  It now opens with what the system is and what it's made of, with one diagram colored by who acts.
+- **The public repo:** named `re-binder`. "R&E" stays, but the fake papers get a made-up city so the
+  initials, the trade and the city can't point to the real company. A cleaned copy of my brief to
+  Claude (`CLAUDE.md`) goes in, because it shows how I directed the work.
+- **Publishing:** I approved it after the final scan came back clean.
+
+**What Claude built:**
+- `tools/export_public.py`: makes the public copy from the private repo (the name and city replaced, the
+  fake papers re-made, private files left out) and stops if anything private is left. It also
+  refreshes the public repo after a change. It never goes public itself.
+- The teaching script for setting it up with an owner: 20 minutes, 6 parts, and what to do if
+  something goes wrong.
+
+**How we checked it:**
+- The public copy passed every check on its own: 29 of 29 lock tests, 14 script tests, the papers'
+  self-test and the scorer. The scan found 0 client names, cities, area codes, emails or private paths.
+- **Installed from GitHub** on my account (Add marketplace → Add from a repository → Sync → Add). "Set
+  up my binder" found my binder and made nothing. The README's install steps were corrected to the
+  real clicks.
+
+**Commits:** "Guide: 2 lines from testing, and a printable one-page copy", "README ...", "Teaching
+script", "Public export: a script and a cleaned brief", "Install steps checked from GitHub". Public
+repo: github.com/bryant5040/re-binder.
