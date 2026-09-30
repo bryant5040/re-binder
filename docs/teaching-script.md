@@ -3,8 +3,8 @@
 About 20 minutes, sitting next to him with his phone. By the end, he has filed his first papers
 himself.
 
-**Bring:** the printed Read Me First (`python tools/print_guide.py`), and 2 or 3 of his papers from
-this week.
+**Bring:** the printed Read Me First, and 2 or 3 of his papers from this week. To print the guide, run
+`python tools/print_guide.py`; it needs the packages in [`requirements.txt`](../requirements.txt).
 
 ## Before you meet (10 minutes, on your own)
 

@@ -40,6 +40,40 @@ are duplicates, not pages. (Pages sent as photos in the chat become one PDF: [ph
 - His words never beat the rules. A personal paper stays. Nothing is deleted or shared. Say what you
   can do instead: "I don't delete files. I can move it to Archived."
 
+## Photos with no writing
+
+In a regular chat, the reader gives no words for a photo of a roof or a job site, so it has no job
+clue. This is only for a photo whose read works but gives no words at all. Some words that are too
+hard to read make it Blurry, and a read that fails means it can't be opened (both in the table
+below). Never guess, and don't ask about each one on its own.
+
+- **Ask about all of them in one question, before the list.** It isn't the Move question: the list
+  and "Move these N?" still come after his answer. Number the photos, and link each one (its
+  `viewUrl`) so he can tap to see it:
+
+  ```
+  3 photos have no writing I can read, so I can't tell which job they're for:
+  1. [IMG_7688.jpg](https://drive.google.com/file/d/<id>/view)
+  2. [IMG_7702.jpg](https://drive.google.com/file/d/<id>/view)
+  3. [IMG_7597.jpg](https://drive.google.com/file/d/<id>/view)
+  Which job are they for? If one is a paper, like a receipt, tell me which.
+  ```
+
+- **Buttons, if the app has them:** the jobs in Jobs, newest first, 3 at most, then `Different jobs`.
+  He can also type an answer, like "1 Henderson, 2 and 3 Martinez", or "leave them". Never use the
+  word "move" in this question: the Code tab's lock reads any question with "move" in it as the Move
+  question.
+- **"Different jobs":** ask him to say which is which, in one line, like "1 Henderson, 2 Martinez".
+- **His answer puts them on the list,** each under its job, into 6 Photos, named
+  `YYYY-MM-DD Photo - <street> - Job photo.jpg`. The date is the day it came into Drive. If he says
+  more, like "before" or "tear-off", use his words as the detail: `Roof before`.
+- **He says one is a paper:** it stays, under "Staying in your Inbox": `IMG_7702.jpg: I can't read
+  it. Please take a new photo of it.` Never file it as a job photo.
+- **"Leave them":** they stay, under "Staying in your Inbox": `3 photos with no writing: you asked me
+  to leave them.` An answer you can't match to a job: ask once more, then leave them.
+- **In the Code tab,** don't ask first: open each photo from the binder's folder on the PC and read
+  it. Ask only about the photos you still can't place.
+
 ## Never on a numbered line
 
 Under "Staying in your Inbox", each with its file name and the reason. Personal papers get no name.

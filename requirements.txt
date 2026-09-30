@@ -1,0 +1,12 @@
+# Python packages for the Code tab extras, the tests and the tools.
+# Needs Python 3.10 or newer. Install with: python -m pip install -r requirements.txt
+# Tested with Python 3.12, Pillow 12.3, pillow-heif 1.8 and python-docx 1.2.
+
+# Reads iPhone (HEIC) photos in the Code tab, and makes the one HEIC test paper.
+pillow-heif
+
+# Draws the fake papers, and is used by the script tests. pillow-heif also installs it.
+Pillow
+
+# Prints the owner's one-page guide as a Word file (tools/print_guide.py).
+python-docx

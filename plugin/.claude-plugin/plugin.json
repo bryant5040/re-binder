@@ -1,7 +1,7 @@
 {
   "name": "re-binder",
   "description": "Files a roofing contractor's job papers into the right Google Drive folders after he approves. Setup, jobs, filing, lookup and a secretary, plus a lock for the Code tab.",
-  "version": "0.7.5",
+  "version": "0.7.6",
   "author": {
     "name": "Bryant Giang"
   },

@@ -45,8 +45,8 @@ Results, one row per paper: [run 1](2026-09-26-run1-chat-result.csv) and
 
 ## About the papers
 
-The public copy of this repo prints a made-up city and area code on the fake papers. Nothing else on
-them differs from the papers the test ran on.
+The fake papers published on GitHub print a made-up city and area code. Nothing else on them differs
+from the papers the test ran on.
 
 ## Not measured
 

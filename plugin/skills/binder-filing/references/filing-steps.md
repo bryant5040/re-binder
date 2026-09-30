@@ -44,6 +44,8 @@ Look in Jobs and Finished Jobs, in this order:
 - **Gas, tools, the truck, shop supplies,** with no job clue: Truck & Shop.
 - **Unsure** (materials with no job clue, a name that fits two jobs, no clue at all): it stays, with
   one question ([special-papers.md](special-papers.md)).
+- **Photos with no writing** (a roof or a job site): one question for all of them, before the list
+  ([special-papers.md](special-papers.md)).
 - **A street that fits no job, for a customer who has one:** ask "Is this Henderson's 412 Oak St job,
   or a new job at 99 Pine St?"
 - **A customer and street with no job, or a job in Finished Jobs:** see

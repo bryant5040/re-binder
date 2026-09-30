@@ -5,8 +5,9 @@
   and hyphens, no "claude" or "anthropic", and a description of 200 characters or less with no tags
 - plugin.json: valid, a description of 200 characters or less, and no web address in it
 - no bin/ folder in the plugin (claude.ai refuses it)
-- every relative link in the plugin, shared/, docs/ and the top pages points at a real file
-- the tests in tests/ pass (if pytest is installed)
+- every relative link in the top pages, plugin/, shared/, docs/, guardrails/ and evals/ points at a
+  real file
+- the tests in tests/ pass (each test file runs on its own, so pytest isn't needed)
 - `claude plugin validate` passes (if the bundled Claude Code is found)
 
 Usage: python tools/check.py
@@ -97,8 +98,6 @@ def check_links():
     for folder in ("plugin", "shared", "docs", "guardrails", "evals"):
         pages += list((ROOT / folder).rglob("*.md"))
     for page in pages:
-        if page.name == "directors-log.md":  # history stays as written
-            continue
         for target in LINK.findall(page.read_text(encoding="utf-8")):
             if re.match(r"[a-z]+:", target) or target.startswith("#"):
                 continue
@@ -108,18 +107,13 @@ def check_links():
 
 
 def run_tests():
-    if not (ROOT / "tests").exists():
-        return
-    try:
-        result = subprocess.run([sys.executable, "-m", "pytest", "-q", str(ROOT / "tests")],
+    for test_file in sorted((ROOT / "tests").glob("test_*.py")):
+        result = subprocess.run([sys.executable, str(test_file)],
                                 capture_output=True, text=True, encoding="utf-8", errors="replace", cwd=ROOT)
-    except OSError:
-        return
-    if "No module named pytest" in result.stderr:
-        print("  (pytest isn't installed, so the tests were skipped)")
-        return
-    if result.returncode != 0:
-        problems.append("tests failed:\n" + result.stdout[-2000:])
+        summary = result.stdout.strip().splitlines()
+        print(f"  {test_file.name}: {summary[-1] if summary else 'no output'}")
+        if result.returncode != 0:
+            problems.append(f"{test_file.name} failed:\n" + (result.stdout + result.stderr)[-2000:])
 
 
 def validate_plugin():

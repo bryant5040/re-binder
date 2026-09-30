@@ -1,5 +1,6 @@
 {
   "name": "re-binder",
+  "description": "R&E Binder: a Claude plugin that files a small contractor's job papers and photos into Google Drive, only after he taps Allow.",
   "owner": {
     "name": "Bryant Giang"
   },

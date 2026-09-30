@@ -124,7 +124,3 @@ Say “file my inbox” to file the 3 waiting papers.
 | Offering to update the tracker, or add a date to it | Never. Other skills remake the tracker after changes |
 | Advice, like "call the city about the inspection" | Say what's missing. What to do is his call |
 | A long report, or a menu of offers at the end | At most 8 lines, then one next step |
-
-## Checked by
-
-Scenario B dry run and live check E8: every planted gap, no false alarms, nothing changed.

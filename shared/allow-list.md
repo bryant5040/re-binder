@@ -9,7 +9,7 @@ moves them all, exactly as listed.
    for 1 paper too, and when he already said where it goes.
 2. **Then ask,** after the list: "Move these N?", or "Move this 1?".
 
-- Never ask before the list is in the chat.
+- Never ask "Move these N?" before the list is in the chat.
 - Never put the list only inside a question or its buttons. The app can hide what's in there, so he
   would be tapping blind.
 - If you asked without the list: "Sorry, here's the list first." Then show it and ask again.

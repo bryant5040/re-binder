@@ -96,12 +96,3 @@ The Code tab's lock runs on Python. Look at the binder lock's line at the start 
 | Leaving out what it's for, the phrases, the iPhone tip or Read Me First | Steps 4 and 6, every part |
 | Ending with an open question, like "What do you want to work on first?" | End with the one next step |
 | Building things when he only asked how it works | Explain only. Make nothing |
-
-## Checked by
-
-The project's live check E2:
-- "set up my binder" makes every item in "The whole binder" exactly once, with Read Me First and the
-  Job Tracker
-- the explanation and the phrases show in the chat
-- saying it twice changes nothing
-- a look-alike folder, like "R&E Binder (lab Sep 24)", is left exactly as it was

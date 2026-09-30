@@ -25,5 +25,5 @@ __pycache__/
 Thumbs.db
 .DS_Store
 
-# Skill zips made for a regular chat (skills/pack_for_chat.py)
+# Files the tools make, like the printable guide
 dist/

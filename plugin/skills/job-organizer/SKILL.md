@@ -138,8 +138,3 @@ When he says "add a note to Henderson: customer wants gutters" (or "note for the
 | Reopening straight away when he mentions new work | Ask first: a new job, or reopen the old one? |
 | No fresh tracker after a start, close or reopen | Always make one ([tracker.md](references/tracker.md)) |
 | Promising a file will "keep itself updated" | Never. The connector can't change what's inside a file |
-
-## Checked by
-
-Live checks E3 ("start a job for Henderson, 412 Oak St", twice) and E10 ("close the Henderson job":
-what's missing is named; after the tap, the job is in Finished Jobs and the tracker says Finished).
